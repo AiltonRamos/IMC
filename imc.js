@@ -32,7 +32,7 @@ function imc () {
         }
 
         //passar os valores para dentro da div.
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e você está ${classificacao}`;
   
 }
 

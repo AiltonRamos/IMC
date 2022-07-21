@@ -87,3 +87,17 @@
     box-sizing: border-box;
     user-select: none;
   }
+
+  @media screen and (max-width: 992px){
+    .container {
+     display: flex;
+    flex-direction: column;
+    background: rgb(255, 0, 0);
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+       }
+  }

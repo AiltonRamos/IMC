@@ -1,4 +1,5 @@
 const calcular = document.getElementById('calcular');
+const limpar = document.getElementById('limpar');
 
 //alert(resultado);//as constantes são objetos e não o conteúdo ou propriedades do objeto.
 
@@ -36,6 +37,17 @@ function imc () {
   
 }
 
+document.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        // console.log("Apertou o enter");
+
+        const btn = document.querySelector("#calcular");
+
+        btn.click();
+    }
+});
+
 calcular.addEventListener('click', imc);
+limpar.addEventListener('click', )
 //ficar escutando, quando alguém clicar, executar a função
 

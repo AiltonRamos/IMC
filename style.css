@@ -68,8 +68,12 @@
   }
 
   button:hover{
-    background-color:  green;
+ /*   background-color:  green;
     border: none;
+    border-color: yellowgreen;*/
+    background: rgb(17, 232, 74);
+    color: #000000;
+    transform: scale(1);
   }
   
   .resultado{
